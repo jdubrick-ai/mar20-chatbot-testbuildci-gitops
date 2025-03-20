@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mar20-chatbot-testbuildci-database-config
+data:
+  VECTORDB_HOST: "mar20-chatbot-testbuildci-database"
+  VECTORDB_PORT: ""
